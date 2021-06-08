@@ -36,5 +36,7 @@ Promise.all([p1, p2, p3])
 .catch( err => {
     console.log(err);
 })
-Promise {<pending>}
-VM1887:34 (3) ["p1 resolve", "p2 resolve", "p3 resolve"]
+
+// Below is the answer 
+// Promise {<pending>}
+// ["p1 resolve", "p2 resolve", "p3 resolve"]
